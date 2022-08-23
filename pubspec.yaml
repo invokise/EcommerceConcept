@@ -1,0 +1,54 @@
+name: ecommerce_concept
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  bloc: ^8.1.0
+  carousel_slider: ^4.1.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_localizations:
+    sdk: flutter
+  google_nav_bar: ^5.0.6
+  http: ^0.13.5
+  intl: ^0.17.0
+  json_annotation: ^4.6.0
+  line_icons: ^2.0.1
+  meta: ^1.7.0
+  provider: ^6.0.3
+  sliding_up_panel: ^2.0.0+1
+
+dev_dependencies:
+  build_runner: ^2.2.0
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.3.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/person.png
+    - assets/icons/cart.png
+    - assets/icons/heart.png
+  fonts:
+    - family: Mark Pro
+      fonts:
+        - asset: assets/fonts/MarkPro-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/MarkPro-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/MarkPro-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/MarkPro-Heavy.ttf
+          weight: 800
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
